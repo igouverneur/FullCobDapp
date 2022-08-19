@@ -96,7 +96,7 @@ export default function Presale() {
         <h1 className={styles.note}>NOTE: The Heroes NFTs Are Not For Sale And There Is No Set Date Until The Beta Launch Of The Game.</h1>
         <h1 className={styles.description}>The heroes of blockchain are the main characters in the game, you need at least 1 character to start playing(along with a Portal NFT.) and of course you can collect as many heroes as you can, Each hero belongs to a specific region, for example Linda belongs to Kusama while Clark is from Solana.</h1>
         <div className={styles.cards}>
-        {!fetchingHeroes ? heroes.map(hero => <HeroCard key={hero.name} name={hero.name} description={hero.description} image={hero.image}/>) : "Loading Data"}
+        {!fetchingHeroes ? heroes.map(hero => <HeroCard key={hero.name} name={hero.name} attributes={hero.attributes} image={hero.image}/>) : "Loading Data"}
         </div>
         {/* {active ? <h1>{account}</h1> : <h1>you are not connected</h1>}
         <h1> {props.finalEth} </h1>

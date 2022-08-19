@@ -15,11 +15,11 @@ async function main() {
 
   // We get the contract to deploy
   const HeroesNFT = await hre.ethers.getContractFactory("HeroesNFT");
-  const heroesNFT = await HeroesNFT.deploy("JubaTry", "JUBT", "ipfs://QmbYCUg1VNBsHmqK8pTbJJEbYqVEDFxc6m9yy53ojRpAzG","25000", "10000000000000000");
+  const heroesNFT = await HeroesNFT.deploy("MyutantoTry", "HNMT", "ipfs://QmR1AW4bx9HpLqs8k6mnHVkT3H2VZt47FbJA2gUhteP7aj","25000", "10000000000000000");
 
   await heroesNFT.deployed();
 
-  console.log("JubaTry deployed to:", heroesNFT.address);
+  console.log("MyutantoTry deployed to:", heroesNFT.address);
 
 }
 

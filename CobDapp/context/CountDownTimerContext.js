@@ -5,12 +5,12 @@ const CountDownTimerContext = createContext();
 
 export function CountDownTimerProvider ({children}) {
     
-    const [publicSaleDate, setPublicSaleDate] = useState("1660703040")
+    const [publicSaleDate, setPublicSaleDate] = useState("1664038800")
     const [publicSaleRemainingTime, setPublicSaleRemainingTime] = useState("")
     // const [publicSaleDate, setPublicSaleDate] = useState(new Date('August 17, 2022 03:24:00').getTime()/1000)
     // const [publicSaleRemainingTime, setPublicSaleRemainingTime] = useState(Math.floor(publicSaleDate - (Date.now() / 1000)))
 
-    const [preSaleDate, setPreSaleDate] = useState("1660703040")
+    const [preSaleDate, setPreSaleDate] = useState("1663952400")
     const [preSaleRemainingTime, setPreSaleRemainingTime] = useState("")
     // const [preSaleDate, setPreSaleDate] = useState(new Date('August 16, 2022 03:24:00').getTime()/1000)
     // const [preSaleRemainingTime, setPreSaleRemainingTime] = useState(Math.floor(preSaleDate - (Date.now() / 1000)))
@@ -19,7 +19,7 @@ export function CountDownTimerProvider ({children}) {
 
   useEffect(() => {
     setIsloading(true);
-    setPublicSaleDate(new Date('August 18, 2022 10:00:00').getTime()/1000);
+    setPublicSaleDate(new Date('September 24, 2022 18:00:00').getTime()/1000);
     if(Math.floor(publicSaleDate - Date.now() / 1000) > 0){
       setPublicSaleRemainingTime(Math.floor(publicSaleDate - Date.now() / 1000));
       setIsloading(false);
@@ -28,7 +28,7 @@ export function CountDownTimerProvider ({children}) {
   }, []);
   useEffect(() => {
     setIsloading(true);
-    setPreSaleDate(new Date('August 18, 2022 10:04:00').getTime()/1000);
+    setPreSaleDate(new Date('September 23, 2022 18:00:00').getTime()/1000);
     if(Math.floor(preSaleDate - Date.now() / 1000) > 0 ){
       setPreSaleRemainingTime(Math.floor(preSaleDate - Date.now() / 1000));
     setIsloading(false);

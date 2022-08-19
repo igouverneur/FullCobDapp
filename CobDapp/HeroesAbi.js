@@ -874,10 +874,20 @@ const FourthHeroAddress = "0xD7C6C3F94A650f606f44B92B11fde182b5AcBba8"
 const FifthHeroAddress = "0x6B5856EB18299005AcBC9940b134d0B43b8F8041"
 const SixthHeroAddress = "0xb26139807Da28E2E9fc5809C604c424855be09ba"
 
-const ClarkTry = "0x1558D0F8868Cfb94EE29ce2e06aDd295ef876410"
-const LindaTry = "0xaCf1CacbCE0B613f7A97859306fa71A593b22182"
-const KatsodoTry = "0x80a6808f98a88abA291B807F4aa46f9A78FCcBB0"
-const JubaTry = "0x35944cBe4D0C120764E6A183956b34E5b1d37296"
+const ClarkTry = "0x4034bfFBB5DeB483A1228B71a14af2795886256D"
+// const ClarkTry = "0x1558D0F8868Cfb94EE29ce2e06aDd295ef876410"
+const LindaTry = "0x58Ddc67923B845E01c1BDec5727F5e414344118D"
+// const LindaTry = "0xaCf1CacbCE0B613f7A97859306fa71A593b22182"
+const KatsodoTry = "0x58adcEEF7386Ea3e0589D176Fc340Ba2652960b6"
+// const KatsodoTry = "0x80a6808f98a88abA291B807F4aa46f9A78FCcBB0"
+const JubaTry = "0x68b81ad8e5e9184234658e939cc4d40750dBB54f"
+// const JubaTry = "0x35944cBe4D0C120764E6A183956b34E5b1d37296"
+const BurkaTry = "0xf34Ac2f30c50E1860a2a2fe7A2ABaEDE751dE6aE"
 
+const KyoseiTry = "0xbA4c09E3a703B26e306Ce6982485F0C68248610a"
 
-export const HeroesContracts = [ClarkTry, LindaTry, KatsodoTry, JubaTry,]
+const HanmaTry = "0xaCc010b192Ae46781f7e32Ba3D06340eb72A5D38"
+
+const MyutantoTry = "0xE63261B01c43d5f79556e4302125813017Ec1859"
+
+export const HeroesContracts = [ClarkTry, LindaTry, KatsodoTry, JubaTry, BurkaTry, KyoseiTry, HanmaTry, MyutantoTry]
