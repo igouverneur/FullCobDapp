@@ -84,3 +84,9 @@
     width: 350px;
     object-fit: fill;
 }
+
+@media screen and (max-width: 640px){
+    .container{
+        flex-direction: column;
+    }
+}

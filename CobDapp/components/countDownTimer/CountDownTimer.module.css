@@ -33,3 +33,14 @@
     font-size: 2.7rem;
 }
 
+@media screen and (max-width: 640px){
+    .title{
+        font-size: 1rem;
+    }
+
+    .number{
+        height: 4.0rem;
+        width: 3.3rem;
+        font-size: 1.5rem;
+    }
+}

@@ -74,3 +74,13 @@ background-image: url("../../public/images/wall_paper4.png");
     /* font-weight: bolder; */
     
 }
+
+@media screen and (max-width: 640px){
+    .coming{
+        font-size: 3.8rem;
+    }
+    .intro button{
+        padding: 0.6rem 1.1rem;
+        font-size: 0.82rem;
+    }
+}

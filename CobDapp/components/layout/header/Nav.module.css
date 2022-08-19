@@ -87,3 +87,39 @@
     /* background-color: var(--orange); */
     
 }
+
+
+@media screen and (max-width: 640px){
+    .splash{
+        display: none;
+    }
+    .nav ul li {
+        font-size: 0.5rem;
+        
+    }
+
+    .connect button{
+        padding: 0.4rem 1rem;
+        font-size: 0.6rem;
+        align-self: center;
+        
+    }
+    .icons{
+        /* flex-direction: column; */
+        justify-content: space-between;
+    }
+    .icon{
+        scale: 0.6;
+    }
+    .nav{
+        flex-grow: 3;
+    }
+    .nav ul{
+        flex-direction: column;
+        height: 20vh;
+        justify-content: center;
+    }
+    .logo{
+        scale: 0.7;
+    }
+}
