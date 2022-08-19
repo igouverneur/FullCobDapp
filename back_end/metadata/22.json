@@ -1,0 +1,12 @@
+{
+    "name" : "Linda",
+    "image": "https://ipfs.io/ipfs/QmNXrcEATJgymuMWeTDBcHe9G6hGsxJsLZ9e2WAbgVnZ36",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Kusama"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/QmQCCMSame2udoGi56NPhFWwioU8QQNSXhVTNK8YfxD7ia"
+}

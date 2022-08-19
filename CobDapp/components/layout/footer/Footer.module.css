@@ -1,0 +1,17 @@
+.container{
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: aliceblue; */
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    margin-top: 2rem;
+}
+
+.container h4 {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}

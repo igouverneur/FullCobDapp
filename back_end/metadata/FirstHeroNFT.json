@@ -1,0 +1,13 @@
+{
+    "name" : "First Hero",
+    "description": "This is the description of the First Hero ",
+    "image": "https://ipfs.io/ipfs/Qmb8ijo7R9UUnbeHSTKcEVp9q2pkvkw19zBXfr3gPGthka",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Solana"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/Qmax9QMcLdaH6yZJsDFvsMEedshNVWxtxS9zyJFxhMaVjG"
+}

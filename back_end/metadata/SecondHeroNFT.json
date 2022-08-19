@@ -1,0 +1,12 @@
+{
+    "name" : "Second Hero",
+    "description": "This is the description of the Second Hero ",
+    "image": "https://ipfs.io/ipfs/QmYu3w1TwK3onSVqnXxLZosEDUqFDan26Ea1vW3hxFKdNj",
+
+    "attributes": [
+        {
+          "trait_type": "Family", 
+          "value": "Ethereum"
+        } 
+     ]
+}

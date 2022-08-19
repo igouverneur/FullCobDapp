@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2rem auto;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    padding: 1rem;
+    color: var(--primaryColor);
+}
+.container h1 {
+    color: white;
+    font-weight: 200;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+
+
+.container h2 {
+    color: black;
+    font-weight: 200;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+

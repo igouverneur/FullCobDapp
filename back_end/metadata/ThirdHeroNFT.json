@@ -1,0 +1,12 @@
+{
+    "name" : "Third Hero",
+    "description": "This is the description of the Third Hero ",
+    "image": "https://ipfs.io/ipfs/QmZSDGUn6h114Fq8dA1J65CDYU7AuvSaD3dwneTbAmisKB",
+
+    "attributes": [
+        {
+          "trait_type": "Family", 
+          "value": "Solana"
+        } 
+     ]
+}

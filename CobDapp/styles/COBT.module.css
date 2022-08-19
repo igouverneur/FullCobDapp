@@ -1,0 +1,29 @@
+.container{
+    min-height: 90vh;
+}
+
+.container legend {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    z-index: 10;
+    padding: 1rem;
+}
+.topSide{
+    /* min-height: 80vh; */
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.presale{
+    flex: 3;
+    /* background-color: black; */
+    /* min-height: 60vh; */
+}
+
+.try{
+    flex: 2;
+}

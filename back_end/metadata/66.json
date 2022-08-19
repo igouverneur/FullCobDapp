@@ -1,0 +1,12 @@
+{
+    "name" : "Kyosei",
+    "image": "https://ipfs.io/ipfs/QmS6gNeYt98YkwkKLc9WqK9dmBBehfDjoAK86MXFMAi8mp",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Elrond"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/QmXCbZteKoTAsfxCuQ6T4ciRZVjYoR3zjry9m2DieGJQnC"
+}

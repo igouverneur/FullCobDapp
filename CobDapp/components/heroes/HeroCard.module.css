@@ -1,0 +1,97 @@
+
+.card{
+    height: 499px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000000;
+    background: url("../../public/images/logopic.png") center center no-repeat;
+    background-size: 400px;
+    transition: all 0.8s;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card:hover{
+    background-size: 700px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.name{
+    opacity: 0;
+    transition: all 0.8s;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    cursor: default;
+    transform: translateY(-50px)
+}
+
+.description{
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: all 0.8s;
+    scale: 0;
+    font-weight: 200;
+}
+
+.card a {
+    opacity: 0;
+    transition: all 0.8s;
+    transform: translateX(150px)
+}
+.card:hover .name {
+    opacity: 1;
+    transform: translateY(0px)
+}
+.card:hover .description{
+    opacity: 1;
+    scale: 1;
+}
+
+.card:hover .bottom button{
+    opacity: 1;
+    transform: translateX(0px)
+}
+
+.card:hover a {
+    opacity: 1;
+    transform: translateX(0px)
+}
+.bottom{
+    /* position: absolute;
+    bottom: 10px; */
+    height: 10vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom button {
+    background-color: rgba(255,255,255,0.4);
+  border: none;
+  border: 3px solid black;
+  color: black; 
+  padding: 0.8rem 2rem; 
+  border-radius: 10px 20px 30px 40px; 
+  border-radius: 10px 10px;
+    font-size: 0.9rem;
+    transition: all 0.8s;
+    opacity: 0;
+    cursor: not-allowed;
+    transform: translateX(-150px)
+}
+
+.bottom button:hover{
+    background-color: #000000;
+    color: white;
+}

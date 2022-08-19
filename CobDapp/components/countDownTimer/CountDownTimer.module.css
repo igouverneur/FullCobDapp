@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    min-height: 25vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.title{
+    font-size: 1.4rem;
+    text-align: center;
+    /* font-family: "WantCoffee"; */
+    /* font-family: "FunkyStar"; */
+    /* font-family: 'Entuista'; */
+    /* font-weight: 200; */
+    color: white;
+}
+.number{
+    height: 6.3rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Entuista';
+    
+    font-size: 2.7rem;
+}
+

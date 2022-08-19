@@ -1,0 +1,12 @@
+{
+    "name" : "Juba",
+    "image": "https://ipfs.io/ipfs/Qmf6Fb3rdbg7T1NnUFGBihbuoeRnSo2tqr1LugYzz2jFc4",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Ethereum"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/QmbT2TmFyGcrZLv3Tj8ZNrJ2D7nNoqUd8Av4w24NPDecvK"
+}

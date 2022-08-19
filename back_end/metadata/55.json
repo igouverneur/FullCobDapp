@@ -1,0 +1,12 @@
+{
+    "name" : "Burka",
+    "image": "https://ipfs.io/ipfs/QmZfKyVjUYuELYpYnxsz14rxRBbTPDeXgwghYFTA3RunEu",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Fantom"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/QmYExih593nY1xo11MWKGudMD1qeNKn2WsLSbnpNTH6qBM"
+}

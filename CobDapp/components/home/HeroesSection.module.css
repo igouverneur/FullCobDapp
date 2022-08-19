@@ -1,0 +1,86 @@
+.container{
+    min-height: 100vh;
+    min-width: 100%;
+    /* background-color: rgb(12, 12, 12); */
+    display: flex;
+    /* box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5); */
+    align-items: center;
+    justify-content: space-around;
+}
+.heroesSwiper{
+    flex: 1;
+}
+
+.description{
+    flex: 1;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 2%;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 60vh;
+}
+
+.list li {
+    color: white;
+    font-size: 1.1rem;
+    line-height: 180%;
+}
+.list li a{
+    /* color: #171717; */
+    color: var(--secondaryColor);
+    line-height: 180%;
+}
+.description button{
+    background-color: var(--primaryColor); 
+  border: none;
+  color: #171717;
+  padding: 0.8rem 1.8rem;
+  /* border-radius: 10px 20px 30px 40px; */
+  border-radius: 10px 10px;
+    font-size: 0.9rem;
+    transition: all 0.5s;
+    align-self: flex-start;
+}
+
+.description button:hover{
+    background-color: #171717;
+    color: white;
+}
+.title{
+    color: var(--primaryColor);
+    font-size: 2.0rem;
+    /* font-family: 'Chewy', cursive; */
+    /* font-family: 'Tomes'; */
+    /* font-family: 'Entuista'; */
+}
+.swiper{
+    display: flex;
+    height: 550px;
+    width: 350px;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.slide{
+    border-radius: 10px;
+}
+
+.vid{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 550px;
+    width: 350px;
+    object-fit: fill;
+}

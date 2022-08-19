@@ -1,0 +1,76 @@
+.container{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: black;  
+background-image: url("../../public/images/wall_paper4.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: black;
+  overflow-x: hidden;
+  z-index: -10;
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.7) 
+}
+
+.container h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+.container h5 {
+    color: var(--secondaryColor);
+    font-size: 2rem;
+}
+
+.intro{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: black; */
+    padding-left: 3rem;
+    gap: 1.8rem;
+}
+.intro h1 {
+    /* font-size: 3.5rem; */
+    color: white;
+}
+.intro span{
+    color: white;
+}
+
+.intro h3 {
+    font-size: 1rem;
+    color: rgb(204, 197, 197);
+}
+.intro button{
+    background-color: var(--primaryColor); /* Green */
+  border: none;
+  color: white;
+  padding: 0.8rem 1.8rem;
+  border-radius: 10px 10px;
+    font-size: 1rem;
+    transition: all 0.5s;
+    /* width: 25%; */
+    margin-top: 1rem;
+}
+
+.intro button:hover{
+    background-color: black;
+
+
+}
+
+.coming{
+    /* color: var(--secondaryColor); */
+    color: white;
+    /* font-family: 'Entuista'; */
+    font-size: 5.5rem;
+    /* font-weight: bolder; */
+    
+}

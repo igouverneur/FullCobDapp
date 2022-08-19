@@ -1,0 +1,12 @@
+{
+    "name" : "Katsodo",
+    "image": "https://ipfs.io/ipfs/QmNykUdWww1EynUngkjEkpmg98mB7YAv7Vkfc6Gk5azNrh",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Elrond"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/QmcX1F7MJZ6qhpRDGCuEs6qwuXqKAy8LQdPEvgPDSYQR12"
+}

@@ -1,0 +1,137 @@
+.countHolder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../public/images/portal.jpg");
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  /* border-radius: 10px; */
+  box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.7);
+  /* box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.9) ; */
+  
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container h1 {
+    color: white;
+}
+
+.container span {
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    font-family: "Lockdoor";
+    color: white;
+    margin: 1rem;
+}
+.description{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+.publicSale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mintButton{
+    border: none;
+    background: none;
+    position: relative;
+    opacity: 0.97;
+}
+.mintButton:hover .mint{
+    color: black;
+}
+.mintButton:disabled{
+    cursor: not-allowed;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.inputContainer input{
+    border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  background-color:rgba(255,255,255,0.5);
+  /* opacity: 0.6; */
+  border: 2px solid var(--secondaryColor);
+  padding: 1rem;
+    border-radius: 10px;
+  text-align: center;
+  width: 35%;
+  font-family: 'Entuista';
+  font-size: 1.2rem;
+}
+.inputContainer input:disabled{
+    cursor: not-allowed;
+}
+.inputContainer button {
+    /* background-color: var(--secondaryColor); */
+  border: none;
+  /* color: white; */
+  /* padding: 0.8rem 2rem; */
+  /* border-radius: 10px 20px 30px 40px; */
+  /* border-radius: 10px 10px; */
+    /* font-size: 0.9rem; */
+    transition: all 0.5s;
+}
+
+.mint{
+    
+    position: absolute;
+    left: 52%;
+    top: 32%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: "Lockdoor";
+    font-size: 3.2rem;
+    color: white;
+    transition: color 0.4s;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    /* box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.7); */
+    background-color: black;
+    color: white;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.7) ;
+    gap: 0.5rem;
+}
+
+.btnIcon{
+    color: black;
+    transition: color 0.4s;
+    cursor: pointer;
+}
+
+.btnIcon:hover{
+    color: var(--primaryColor);
+}

@@ -1,0 +1,31 @@
+.container{
+    min-height: 90vh;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--primaryColor);
+    font-size: 2.7rem;
+    /* font-family: 'Chewy', cursive; */
+    /* font-family: 'Tomes'; */
+    font-family: 'Entuista';
+}
+.icons{
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.box{
+    transition: all 0.3s;
+}
+
+.box:hover{
+    transform: scale(1.1)
+}

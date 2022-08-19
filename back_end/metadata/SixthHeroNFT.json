@@ -1,0 +1,12 @@
+{
+    "name" : "Sixth Hero",
+    "description": "This is the description of the Sixth Hero ",
+    "image": "https://ipfs.io/ipfs/QmZ5hqRyCU9vWDZLVcLDHKkw1QHJ8uSrNa4TwDFEqf7r2P",
+
+    "attributes": [
+        {
+          "trait_type": "Family", 
+          "value": "Polygon"
+        } 
+     ]
+}

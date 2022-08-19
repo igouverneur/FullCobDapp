@@ -1,0 +1,12 @@
+{
+    "name" : "Clark",
+    "image": "https://ipfs.io/ipfs/QmXpryCYLMmTEt1JZGmB3yHjhFFV6F7fsKDQfere4VdsJX",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Solana"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/QmSBBZNjm2gecrTTicu71QsKeMj1qsb7eJbwM8AeKwSMrV"
+}

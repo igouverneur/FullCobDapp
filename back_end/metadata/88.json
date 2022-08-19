@@ -1,0 +1,12 @@
+{
+    "name" : "Myutanto",
+    "image": "https://ipfs.io/ipfs/QmQ6M11mGeKzqoqPXEWP4ftrgYMLzYxgXvLGPdcCPFtmMJ",
+
+    "attributes": [
+        {
+          "trait_type": "Region", 
+          "value": "Solana"
+        } 
+     ],
+     "animation_url": "https://ipfs.io/ipfs/QmQVBFoXyCNLrMw242iAcpkMCagGmEzo1DnHfcPdE5C53u"
+}

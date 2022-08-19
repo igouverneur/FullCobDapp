@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bicyclette", sans-serif;
+  overflow-x: hidden;
+  /* background-image: url("../public/images/wall_paper4.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: black;
+  
+  max-height: 100vh;
+  max-width: 100vw;
+  z-index: -1; */
+  scrollbar-color: white;
+  background: rgb(232,170,66);
+  background: radial-gradient(circle, rgba(232,170,66,1) 0%, rgba(35,25,85,1) 100%);  
+  /* background-color: #171717; */
+  z-index: -100;
+}
+
+
+@font-face {
+  font-family: "Sunblood";
+  src: url("../public/fonts/Sunblood.ttf");
+}
+
+@font-face {
+  font-family: "Swarth";
+  src: url("../public/fonts/Swarth.ttf");
+}
+@font-face {
+  font-family: "Aloevera";
+  src: url("../public/fonts/Aloevera.ttf");
+}
+@font-face {
+  font-family: "FunkyStar";
+  src: url("../public/fonts/FunkyStar.ttf");
+}
+
+@font-face {
+  font-family: "Playvictim";
+  src: url("../public/fonts/Playvictim.ttf");
+}
+@font-face {
+  font-family: "Bicyclette";
+  src: url("../public/fonts/Bicyclette.ttf");
+}
+@font-face {
+  font-family: "Filsan";
+  src: url("../public/fonts/Filsan.otf");
+}
+@font-face {
+  font-family: "Backstabber";
+  src: url("../public/fonts/Backstabber.ttf");
+}
+@font-face {
+  font-family: "Lockdoor";
+  src: url("../public/fonts/Lockdoor.ttf");
+}
+@font-face {
+  font-family: "WantCoffee";
+  src: url("../public/fonts/WantCoffee.otf");
+}
+@font-face {
+  font-family: "Entuista";
+  src: url("../public/fonts/Entuista.otf");
+}
+:root {
+  /* --primaryColor: #0078AA; */
+  --primaryColor: #1F4690;
+  --secondaryColor: #231955;
+  --orange: #E8AA42;
+}
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primaryColor);
+  border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primaryColor);
+  border-radius: 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: "Bicyclette", sans-serif;
+  cursor: pointer;
+}
+
+.react-player__preview {
+  border-radius: 3%;
+}
